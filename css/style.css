@@ -1,0 +1,25 @@
+th,
+td { /*estilizando ambos "th" e "td", pode ser colocado na mesma linha ou em linhas diferentes*/
+    border: 1px solid black;
+    border-radius: 5px; /*arredondar as bordas da tabela*/
+    background-color: lavender;
+    padding: 10px; /*espaço entre o texto e as bordas de cada segmento da tabela*/
+    text-align: center;
+}
+
+.tabela {
+    width: 60%; /*tamanho da tabela com relação à tela*/
+    /*background-color: lavender; - colocaria fundo na tabela inteira, não apenas dentro das "caixas" da tabela*/
+}
+
+.relatorio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*as 3 linhas acima foram feitas para centralizar a tabela na tela, tanto verticalmente quanto horizontalmente (por isso duas propriedades com "center")*/
+}
+
+th {
+    background-color: darkslateblue;
+    color: lightskyblue;
+}
